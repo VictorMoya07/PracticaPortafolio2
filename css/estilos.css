@@ -1,0 +1,299 @@
+body{
+    background: #eeededf6;
+    font-family: "opens sans",sans-serif;
+}
+
+header{
+margin-top: 30px;
+}
+
+header .nav{
+    min-height: 80px;
+    overflow: hidden;
+    background: #ffffff;
+     
+}
+
+/*----Logo----*/
+header .logo{
+    margin-left: 10px; 
+}
+header .logo h2,
+header .logo span,
+header .logo p{
+    font-size: 16px;
+    display: inline-block;
+    margin:0;
+}
+
+header .logo h2{
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+header .logo p{
+    color:#777777;
+}
+
+header .logo .icono {
+    color:#bfbfbf;
+}
+
+/*---MENU---*/
+
+header .menu{
+    padding: 0;
+}
+
+header .menu a {
+    display: block;
+    padding: 0 30px;
+    text-decoration: none;
+    color: #f2f2f2; 
+}
+header .menu a div span{
+    font-weight: 600;
+}
+header .menu .o-1 {background: #3da5e2;}
+header .menu .o-2 {background: #50e23d;}
+header .menu .o-3 {background: #3d40e2;}
+
+header .menu .o-1:hover {background: #0e3d58;}
+header .menu .o-2:hover {background: #1b5f12;}
+header .menu .o-3:hover {background: #191b7c;}
+
+/*---Slider---*/
+.slider{
+    margin-bottom:20px;
+}
+
+.slider .col{
+    padding: 0;
+}
+/*------PORTAFOLIO----*/
+
+.portafolio {
+    border-top: 5px solid #3da5e2;
+    padding: 0 20px;
+    background: #ffffff;
+    margin-bottom: 20px;
+}
+
+.portafolio .Titulo{
+    padding: 40 px 0;
+    text-align: center;
+    color:#3da5e2;
+    font-family: "Open Sans" , sans-serif;
+}
+
+.portafolio .galeria .contenedor-imagen{
+
+    margin-bottom: 40px;
+    max-height: 180px;
+    overflow: hidden;
+}
+
+.portafolio .galeria .contenedor-imagen a{
+    display: inline-block;
+}
+
+.portafolio .galeria .contenedor-imagen:hover img {
+    border: 2px solid #3da5e2;
+}
+
+.portafolio .modal-dialog {
+    margin:0px auto;
+    height:100%;
+    max-width:1000px ;
+}
+.portafolio .modal-content{
+    width: auto;
+}
+
+/*----ACERCA DE---*/
+
+.acerca-de{
+    border-top: 5px solid #50e23d;
+    padding: 30px;
+    margin-bottom: 40px;
+}
+
+.acerca-de .foto{
+    text-align: center;
+}
+
+.acerca-de .foto img{
+    margin-bottom: 30px;
+    border: 2px solid #50e23d; 
+    height:250px;
+    width: 250px;
+}
+
+.acerca-de .foto .nombre{
+    color:#545454;
+    font-weight: 300;
+    font-size:18px;
+    letter-spacing: 2px;
+}
+
+.acerca-de .info .titulo{
+    color:#50e23d;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size:40px;
+    margin-bottom: 30px; 
+}
+
+.acerca-de .info .resumen{
+    letter-spacing: 1px;
+}
+
+.acerca-de .info .label {
+    font-size: 18px;
+    font-weight: 400;
+    color: #1b5f12;
+    margin-bottom: 10px;
+}
+
+.acerca-de .info .progress {
+    background: #1b5f12;
+    margin-bottom: 15px;
+    height:25px;
+}
+.acerca-de .info .progress-bar {
+    background: #50e23d;
+    color:#1b5f12;
+}
+
+/*--------CONTACTO----------*/
+
+.contacto{
+    padding: 40px;
+    border-top: 5px solid #3d40e2;
+    border-bottom: 1px solid #cbcbcb;
+    margin-bottom: 40px;
+}
+
+.contacto .titulo{
+    color:#191b7c;
+    font-family: "Open Sans" , sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.contacto .form-group{
+    margin-bottom:0;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario textarea{
+
+    padding: 15px;
+    border:1px solid #3d40e2;
+    width:100% ;
+    font-family: "Opens Sans", sans-serif;
+    margin-bottom:30px;
+    border-radius: 2px;
+}
+
+.formulario textarea{
+    height:150px;
+    max-height: 200px;
+    min-height: 150px;
+}
+
+.formulario .boton{
+    background: #3d40e2;
+    border:none;
+    padding: 7px 30px;
+    color:#f2f2f2;
+    font-family: "Opens Sans", sans-serif;
+    cursor: pointer;
+    width: auto;
+    border-radius:3px;
+}
+
+.formulario .boton:hover{
+    background: #191b7c;
+}
+
+/*---FOOTER--*/
+
+.redes-sociales{
+    padding:40px 0;
+    margin-bottom: 40px;
+}
+
+.redes-sociales .icono{
+    width: 100px;
+    height:100px;
+    font-size: 40px;
+    line-height: 100px;
+    color:#ffffff;
+    text-align: center;
+    background:#cbcbcb;
+    display: inline-block;
+    margin:0 20px;
+    text-decoration: none;
+    border-radius: 100px;
+    transition: all.3s ease; 
+}
+
+.redes-sociales .twitter{
+    background: #3da5e2;
+}
+.redes-sociales .facebook{
+    background: #124766;
+}
+.redes-sociales .instagram{
+    background: #b6680e;
+}
+/* --- MEDIAQUERIES ---  */
+
+/* Dispositivo xl */
+@media screen and (max-width:1199px) {}
+
+/* Dispositivo lg */
+@media screen and (max-width:991px) {
+	.logo {
+		height: 76px;
+	}
+
+	.menu {
+		min-height: 76px;
+	}
+
+	.menu a {
+		width: 100%;
+	}
+
+	.menu a div {
+		width: 100%;
+    }
+
+    .modal .modal-dialog {
+		width: 90%;
+	}
+
+	.modal .modal-dialog .modal-content img {
+		width: 100%;
+	}
+}
+
+/* Dispositivo md */
+@media screen and (max-width:767px) {}
+
+/* Dispositivo sm */
+@media screen and (max-width:575px){
+    header {
+		margin-top: 0;
+	}
+
+	header .logo h2, 
+	header .logo p {
+		font-size: 12px;
+	}
+}
